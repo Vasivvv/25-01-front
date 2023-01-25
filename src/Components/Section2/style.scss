@@ -1,0 +1,50 @@
+.sec-2 {
+  padding-top: 100px;
+
+  .sec-2-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+
+    .services {
+      font-size: 40px;
+      color: #3680c1;
+    }
+    .sec-2-text {
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 400;
+      color: #777;
+    }
+  }
+
+  .sec-2-cards {
+    display: flex;
+
+    justify-content: center;
+    gap: 30px;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 400px;
+      i {
+        font-size: 50px;
+        padding-bottom: 15px;
+      }
+      .card-title{
+        font-size: 18px;
+        padding-bottom: 15px;
+      }
+      .card-text{
+        color: #777;
+        font-size: 14px;
+        padding-bottom: 15px;
+        display: flex;
+text-align: center;
+      }
+    }
+  }
+}
